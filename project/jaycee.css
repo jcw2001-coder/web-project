@@ -1,0 +1,68 @@
+body{
+	background-image:url(picky.jpg);
+	font-family: sans-serif;
+
+}
+table th {
+	background-color: seagreen;
+}
+table td{
+	background-color: skyblue;
+}
+a {
+	text-decoration: none;
+	font-size: larger;
+
+}
+a:hover{
+        color: red;
+        text-decoration: underline;
+}
+}
+.t1{
+	width: 100%;
+}
+ul.top{
+	padding:10px 16px;c
+	list-style: none;
+	background-color: #eee;
+
+}
+/*display list iteims side by side*/
+ul.top li{
+	display: inline;
+	font-size: 18px;
+	align-content: right ;
+}
+ul.top li+li:before {
+	padding: 8px;
+	color: black;
+	     content: "     \00a0";
+}
+.li{
+	text-align: right;
+
+}
+.li:hover{
+	text-shadow: help;
+}
+/*add a color to all links inside*/
+ul.top li a{
+	color: #0275d8;
+	text-decoration: none;
+}
+/*add a color on mouse hover*/
+ul.top li a:hover{
+      color: #01447e;
+      text-decoration: underline;
+
+}
+footer{
+	background-color: black;
+	color: whitesmoke;
+	padding: 20px;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+}

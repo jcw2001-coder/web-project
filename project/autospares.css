@@ -1,0 +1,13 @@
+body{
+	background-image: url("auto2.png");
+	background-size: cover;
+}
+footer{
+	background-color: black;
+	color: whitesmoke;
+	padding: 20px;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+}
